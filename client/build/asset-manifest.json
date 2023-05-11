@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e4d37399.css",
+    "main.js": "/static/js/main.724df196.js",
+    "static/media/elephant.jpg": "/static/media/elephant.92e6e4bc34db056917d5.jpg",
+    "static/media/deer.jpg": "/static/media/deer.0a96cd9496379e50c8a2.jpg",
+    "static/media/loginImg.jpg": "/static/media/loginImg.04619a4ff34f0c612511.jpg",
+    "static/media/tiger.jpg": "/static/media/tiger.0443d2d60d1c56aaacd7.jpg",
+    "static/media/hero.jpg": "/static/media/hero.7f64d0039835cb5eeab6.jpg",
+    "static/media/dog.png": "/static/media/dog.ab27c4d84cf93d890d48.png",
+    "static/media/panda.jpg": "/static/media/panda.2fc516c5330e64850ff9.jpg",
+    "static/media/registerImg.jpg": "/static/media/registerImg.34c786135e2da2794d50.jpg",
+    "static/media/bear.jpg": "/static/media/bear.893ab867c867fc9e50ab.jpg",
+    "static/media/bird.jpg": "/static/media/bird.d02c78a619950ccf8ee8.jpg",
+    "static/media/about.jpg": "/static/media/about.8f2ff12de9602998f848.jpg",
+    "static/media/noPicturePet.png": "/static/media/noPicturePet.b54d2e2273d98e935efe.png",
+    "static/media/avatar.png": "/static/media/avatar.98d79ab0503c2f1f5bf6.png",
+    "static/media/landing.png": "/static/media/landing.8dee2bb7e801ee2991ec.png",
+    "static/media/logo.svg": "/static/media/logo.84c39bd4ad51b7c3d552a1291361a3e2.svg",
+    "static/media/animal.svg": "/static/media/animal.2d5c7ad503032472ff358b35ac7b052a.svg",
+    "static/media/dog.svg": "/static/media/dog.2abedee18060ea93ac149cead4641658.svg",
+    "static/media/cat.svg": "/static/media/cat.70fb253d498be0127cf55cd3bcd65e82.svg",
+    "index.html": "/index.html",
+    "static/media/blob.svg": "/static/media/blob.9fec1d76c3480c8d59c563f0aafd2b5b.svg",
+    "main.e4d37399.css.map": "/static/css/main.e4d37399.css.map",
+    "main.724df196.js.map": "/static/js/main.724df196.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e4d37399.css",
+    "static/js/main.724df196.js"
+  ]
+}
