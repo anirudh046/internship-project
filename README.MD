@@ -1,6 +1,6 @@
-# :smiley_cat: Animal Rescue 
+# :smiley_cat: Animal Rescue
 
-Hey everyone, presenting to you *Bay-Zuban* an animal rescue portal where you can adopt different pet as well as put multiple pets up for adoption. The portal has an admin and nomral user views where admin can add and delete pets whereas user can only view them or adopt them.  The app is built on the MERNG stack and also includes login through your Google account!.
+Hey everyone, presenting to you _Bay-Zuban_ an animal rescue portal where you can adopt different pet as well as put multiple pets up for adoption. The portal has an admin and nomral user views where admin can add and delete pets whereas user can only view them or adopt them. The app is built on the MERNG stack and also includes login through your Google account!.
 
 ## :ticket: Demo
 
@@ -9,12 +9,14 @@ A link for the demo is given below:
 :link: https://bayzuban.herokuapp.com
 
 _User account_:
+
 ```bash
 username: admin
 password: 12345678
 ```
 
 _.env variables_
+
 ```bash
 MONGO_URI <Your mongodb URI>
 CRYPTOJS_SECRET_KEY <Any secret combination or password>
@@ -28,33 +30,22 @@ GOOGLE_SECRET = <Your google private key found on developers console>
 ## 🔥 Features
 
 ### :lock: Authentication
+
 - User registration & login
 - Login with Google
 - JWT auth methods with secure sessions using redux-persist
 
 ### :stars: API fetching
+
 - Pets fetching (Graphql API is used for fetching only the relevant data)
 - User fetching (Existing users cannot register with same email or username again)
 - Add/delete pets using the admin portal by logging in through admin account
 
-
 ### :zap: Animations with framer-motion
+
 - Element animations added for better ux
 - All animations viewport triggered ( Only triggered if user enters the given div or heading etc)
-- Pages don't change abruptly but smoothly exit an animation and enter another 
-
-
-
-## :camera: Screenshots
-
-### Landing page
-![](https://github.com/hunter10471/MERN_animal_resuce/blob/master/screenshots/ss1.png?raw=true)
-
-### Login Page
-![](https://github.com/hunter10471/MERN_animal_resuce/blob/master/screenshots/ss2.png?raw=true)
-
-### Pet page
-![](https://raw.githubusercontent.com/hunter10471/MERN_animal_resuce/master/screenshots/ss3.png)
+- Pages don't change abruptly but smoothly exit an animation and enter another
 
 ## :key: Client Dependencies
 
@@ -123,57 +114,5 @@ GOOGLE_SECRET = <Your google private key found on developers console>
     "devDependencies": {
     "nodemon": "^2.0.19"
   }
-  
-  ```
 
-
-
-## 🏗️ How to Set up `Bayzuban` for Development
-
-1. Clone the repository
-
-```bash
-git clone https://github.com/hunter10471/MERN_animal_rescue.git
 ```
-
-2. Change the working directory
-
-```bash
-cd MERN_animal_rescue
-```
-
-3. Install dependencies
-
-```bash
-npm install # or, yarn install
-```
-
-4. Run the app
-
-```bash
-npm run dev # or, yarn dev
-```
-
-That's All!!! Now open [localhost:4000](http://localhost:4000/) to see the app.
-
-
-## 🍔 Built With
-_These are just some major resources used in the project, there are others too that can be found in the dependencies section_
-- [React JS](https://nextjs.org/): The most popular framework around
-- [TailwindCss](https://tailwindcss.com/) A utility-first CSS framework packed with classes
-- [Heroku](http://vercel.com/): Easiest hosting for a MERN app
-- [Framer-motion](https://www.framer.com/motion/) Amazing animations done easily
-- [Redux/@reduxjs/toolkit](https://redux-toolkit.js.org/) For persisting data and easy access to store
-- [Material-UI](https://mui.com/) All the icons were taken from this amazing library
-- [Axios](https://axios-http.com/) For easy data fetching from  backend
-- [Eslint](https://eslint.org/) All the front end and backend code is linted using ESlint to prevent any errors and follow a singular code pattern
-- [React-router](https://reactrouter.com/) Page transitions and re-directions done right
-- [GraphQL](https://graphql.org/) Fetching only what you want 
-
-
-
-## 🛡️ License
-This project is licensed under the MIT License - see the [`LICENSE`](LICENSE) file for details.
-
-
-
