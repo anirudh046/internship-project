@@ -10,17 +10,8 @@
     "install-client": "cd client && npm install",
     "heroku-postbuild": "npm run install-client && npm run build"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/hunter10471/MERN_animal_resuce.git"
-  },
   "keywords": [],
   "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/hunter10471/MERN_animal_resuce/issues"
-  },
-  "homepage": "https://github.com/hunter10471/MERN_animal_resuce#readme",
   "dependencies": {
     "apollo-server": "^3.10.0",
     "bcrypt": "^5.0.1",
