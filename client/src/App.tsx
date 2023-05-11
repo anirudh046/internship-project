@@ -11,6 +11,7 @@ import { useSelector } from "react-redux";
 import { AnimatePresence } from "framer-motion";
 import About from "./pages/About";
 import User from "./pages/User";
+import Header from "./components/Header";
 
 const client = new ApolloClient({
   uri: "/graphql",
@@ -22,6 +23,7 @@ function App() {
   const location = useLocation();
   return (
     <ApolloProvider client={client}>
+      <Header />
       <AnimatePresence exitBeforeEnter>
         <Routes location={location} key={location.key}>
           <Route path="/" element={<Home />} />

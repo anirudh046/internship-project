@@ -25,7 +25,7 @@ const LeftContainer = () => {
           <LocalPhoneIcon /> +91 1234567890
         </span>
         <span className="flex items-center gap-3">
-          <LocationOnIcon /> India
+          <LocationOnIcon /> Shimoga, Karnataka, India
         </span>
       </div>
       <Icons />

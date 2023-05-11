@@ -22,7 +22,7 @@ const Footer = () => {
         <FooterSelect />
       </div>
       <p className="text-center text-[10px] md:text-xs p-2">
-        We save animals (2023)
+        © 2020. We Save Animals (WSA) Welfare Trust. All Rights Reserved.
       </p>
     </footer>
   );
