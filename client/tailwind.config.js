@@ -14,7 +14,7 @@ module.exports = {
       colors: {
         primary: "#6f95ef",
         secondary: "#2D2D2D",
-        tertiary: "#c5fd8a",
+        tertiary: "#c5fd8ac",
       },
       backgroundImage: {
         registerImg: "url('/src/assets/images/registerImg.jpg')", //eslint-disable-line
